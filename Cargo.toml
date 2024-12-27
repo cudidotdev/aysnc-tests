@@ -1,0 +1,8 @@
+[package]
+name = "async-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+tokio-test = "0.4.4"
